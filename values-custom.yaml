@@ -3,7 +3,6 @@ dags:
   # GitSync configuration
   gitSync:
     enabled: true
-
     # Git repository URL
     repo: https://github.com/shadab-bigdel/airflow-helm-chart.git
     branch: main
