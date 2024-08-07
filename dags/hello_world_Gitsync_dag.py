@@ -8,7 +8,7 @@ def helloWorldGitsync():
 with DAG(dag_id="hello_world_Gitsync_dag",
          start_date=datetime(2021,1,1),
          schedule_interval="@hourly",
-         catchup=False) _
+         catchup=False)
     
     task1 = PythonOperator(
         task_id="hello_world_Gitsync",
